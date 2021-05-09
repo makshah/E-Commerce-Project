@@ -7,10 +7,10 @@ export default {
             image: '/images/m1.jpg',
             brand: 'Logitech',
             price: 60,
-            status: 'In Stock',
             rating: 4.8,
             numReviews: 100,
-            description: 'some description'
+            description: 'some description',
+            countInStock: 10
         },
         {
             _id: '2',
@@ -19,10 +19,10 @@ export default {
             image: '/images/k1.jpg',
             brand: 'Logitech',
             price: 70,
-            status: 'In Stock',
             rating: 4.5,
             numReviews: 102,
-            description: 'some description' 
+            description: 'some description',
+            countInStock: 8 
         },
         {
             _id: '3',
@@ -31,10 +31,10 @@ export default {
             image: '/images/m2.jpg',
             brand: 'DELL',
             price: 80,
-            status: 'In Stock',
             rating: 4.9,
             numReviews: 75,
-            description: 'some description'
+            description: 'some description',
+            countInStock: 0
         },
         {
             _id: '4',
@@ -42,11 +42,11 @@ export default {
             category: 'Keyboard',
             image: '/images/k2.jpg',
             brand: 'DELL',
-            status: 'In Stock',
             price: 90,
             rating: 4.9,
             numReviews: 90,
-            description: 'some description' 
+            description: 'some description',
+            countInStock: 7
         },
 ]
 }
